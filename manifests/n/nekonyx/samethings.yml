@@ -1,0 +1,110 @@
+name: SameThings
+author: Nekonyx
+description: Return some features from Smod2
+tags: [smod2, health, clean, generator, scp106]
+categories: [Essentials, Gameplay, Security]
+icon: null
+images: []
+links:
+  repo: https://gitlab.com/Nekonyx/same-things-exiled-plugin
+  readme: https://gitlab.com/Nekonyx/same-things-exiled-plugin/-/raw/master/README.md
+  license: null
+  issues:
+    list: https://gitlab.com/Nekonyx/same-things-exiled-plugin/-/issues
+    create: https://gitlab.com/Nekonyx/same-things-exiled-plugin/-/issues/new
+
+files:
+  - version:
+      plugin: 2020.0406.0
+      exiled: 1.9.0
+    links:
+      source: https://gitlab.com/Nekonyx/same-things-exiled-plugin/-/tree/7ec0accf065627a3a76bb4601b2072e8a7c34aa8
+      download: https://cdn.discordapp.com/attachments/687658219019042827/696762181680627804/SameThings.dll
+    changes:
+      - 'Fixed: self-healing'
+
+  - version:
+      plugin: 2020.0402.0
+      exiled: 1.9.0
+    links:
+      source: https://gitlab.com/Nekonyx/same-things-exiled-plugin/-/tree/68c71e587b5ebac91e043bd8a31a48f1dcc19945
+      download: https://cdn.discordapp.com/attachments/687658219019042827/695107469726187600/SameThings.dll
+    changes:
+      - Smolll fix for logicer
+
+  - version:
+      plugin: 2020.0327.3
+      exiled: 1.9.0
+    links:
+      source: https://gitlab.com/Nekonyx/same-things-exiled-plugin/-/tree/c2618355b25d18833a362a871037808561476e2a
+      download: https://cdn.discordapp.com/attachments/687658219019042827/693095092793376890/SameThings.dll
+    changes:
+      - Optimization for servers with many players
+
+  - version:
+      plugin: 2020.0327.2
+      exiled: 1.9.0
+    links:
+      source: https://gitlab.com/Nekonyx/same-things-exiled-plugin/-/tree/f84c25a3ebdb4249a657c3d5c257868c5b482ba7
+      download: https://cdn.discordapp.com/attachments/687658219019042827/692881219041624114/SameThings.dll
+    changes:
+      - Fix of fix of previous fix
+
+  - version:
+      plugin: 2020.0327.1
+      exiled: 1.9.0
+    links:
+      source: https://gitlab.com/Nekonyx/same-things-exiled-plugin/-/tree/8b8824877efc777a7dc913403e55ef1b7823b6c4
+      download: https://cdn.discordapp.com/attachments/687658219019042827/692866611505266719/SameThings.dll
+    changes:
+      - Fix of previous fix
+
+  - version:
+      plugin: 2020.0327.0
+      exiled: 1.9.0
+    links:
+      source: https://gitlab.com/Nekonyx/same-things-exiled-plugin/-/tree/42812a477628569494d832c0da840e2cea0fd815
+      download: https://cdn.discordapp.com/attachments/687658219019042827/692860245940109382/SameThings.dll
+    changes:
+      - Fixed issue with deleting items
+
+  - version:
+      plugin: 2020.0326.0
+      exiled: 1.9.0
+    links:
+      source: https://gitlab.com/Nekonyx/same-things-exiled-plugin/-/tree/7b3cf198b17d79321b6deaa3bec1805057aac31a
+      download: https://cdn.discordapp.com/attachments/687658219019042827/692599478082863104/SameThings.dll
+    changes:
+      - item_cleanup starts counting down after an item is dropped (currently item that have fallen out with a dead body are not removed)
+      - ragdoll_cleanup works in the same way
+      - reduce_ammo_on_reload sets strictly 100 ammo for each weapon, and doesn't let the number go up to 1,000
+      - A lot of things now compatible with other plugins, like tesla_triggerable_team is now compatible with scp575
+      - Some optimizations (maybe)
+
+  - version:
+      plugin: 2020.0313.0
+      exiled: 1.8.1
+    links:
+      source: https://gitlab.com/Nekonyx/same-things-exiled-plugin/-/tree/64bf42db7c0f8277f092ccbdb6d38413ce6e093e
+      download: https://cdn.discordapp.com/attachments/687658219019042827/687819367483834405/SameThings.dll
+    changes:
+      - Tesla will not trigger if player have GodMode
+      - Pickups will not be removed once the round starts.
+
+  - version:
+      plugin: 2020.0312.1
+      exiled: 1.8.1
+    links:
+      source: https://gitlab.com/Nekonyx/same-things-exiled-plugin/-/tree/82514cb76b77aa3781e5e9a9fc7723dd32dcf0ff
+      download: https://cdn.discordapp.com/attachments/687658219019042827/687667482294878294/SameThings.dll
+    changes:
+      - AutoWarhead locks the warhead stop button anyway
+
+  - version:
+      plugin: 2020.0312.0
+      exiled: 1.8.1
+    links:
+      source: https://gitlab.com/Nekonyx/same-things-exiled-plugin/-/tree/aeedca80237877ba8104994ca7fa663b9faa455c
+      download: https://cdn.discordapp.com/attachments/687658219019042827/687661515817615371/SameThings.dll
+    changes:
+      - 'new config: scp106_lure_reload: 4 - if you use more than one lure, you can set a timeout between them'
